@@ -1,0 +1,10 @@
+<head>
+    <title>Friends - Meteor</title>
+</head>
+
+<body>
+    {{#each friends}} {{> index}} {{/each}}
+</body>
+<template name="index">
+    <p>{{lastName}} <span>{{firstName}}</span></p>
+</template>
